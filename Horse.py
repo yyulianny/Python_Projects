@@ -44,6 +44,20 @@ print("------------------------");
 age = 31
 if age >= 18:
     print "Yay! I can vote!";
+
+    print "blah blah blah"
+    print "blah blah blah"
+    print "blah blah blah"
+
+    print "blah blah blah"
+    print "blah blah blah"
+    print "blah blah blah"
+    print "blah blah blah"
+    print "blah blah blah"
+    print "blah blah blah"
+    print "blah blah blah"
+    print "blah blah blah"
+    print "blah blah blah"
 else:
     print "Awww, I cannt vote";
 
