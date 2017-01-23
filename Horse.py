@@ -22,6 +22,20 @@ def question1():
 pass
 
 
+def lastQuestion():
+    printQuestionNumber(13)
+    favoriteColor = raw_input("what is your favorite color: ")
+    if (favoriteColor.upper() == "BLUE"):   
+        print "My color is primary color"
+    elif (favoriteColor.upper() == "YELLOW"): 
+        print "My color is primary color"
+    elif (favoriteColor.upper() == "RED"): 
+        print "My color is primary color"
+    else:
+        print "My favorite color is a secondary color"
+pass
+
+lastQuestion();
 
 printQuestionNumber(2);
 today = 12
@@ -46,6 +60,7 @@ elif today == "Friday":
 else :
     print "Yeah, it is the weekend!!"
 
+lastQuestion();
 
 printQuestionNumber(4)
 age = 31
@@ -70,6 +85,7 @@ elif (age >= 18) and (age < 21):
 else:
     print "I cannot vote or go to a bar"
 
+lastQuestion();
 
 printQuestionNumber(8)
 number = input("What number do you want to check: ")
@@ -87,3 +103,10 @@ if ((number1 % 2)==0) and ((number2 % 2)==0):
 else:
     print "Both number are not even"
 
+printQuestionNumber(12)
+favoriteColor = raw_input("what is your favorite color: ")
+if (favoriteColor.lower() == "blue"):
+#if  (favoriteColor == "Blue") or (favoriteColor == "blue") or (favoriteColor == "BLUE"):
+    print "My favorite color is blue!"
+else:
+    print "Not my favorite color"
