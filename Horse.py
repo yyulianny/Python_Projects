@@ -1,3 +1,6 @@
+
+# This function prints given question number
+# and also a line underneath.
 def printQuestionNumber(questionNumber):
     print ("\n")
     if questionNumber == 4:
