@@ -46,7 +46,7 @@ print hello_name()
 
 
 def partner_name():
-    Maria = 77
+    value = "Maria"
     return "partner_name"
 print partner_name()
 
