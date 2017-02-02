@@ -1,6 +1,74 @@
-def hello_print():
+# This function prints given question number
+# and also a line underneath.
+def printQuestionNumber(questionNumber):
+    print ("\n")
+    if questionNumber == 4:
+        print ("This is Question #" + str(questionNumber) + " and #" + str(questionNumber+1))
+    else :
+        print ("This is Question #" + str(questionNumber))
+    print("------------------------")
+pass
+
+# Question 1
+# This function says hello
+# ------------------------
+def hello_print1():
     print "hello"
-print hello_print()
+pass
+
+# Question 3
+# This function says whatever you ask him to say
+# ------------------------
+def hello_print2(greeting):
+    print greeting
+
+# Question 6
+def hello_return():
+    return "hello"
+
+
+# This function says my name
+# ------------------------
+def hello_name(name):
+    print "hello " + name
+
+
+# calling hello functions with no argument
+#hello_print1() 
+#hello_print2("something")
+
+
+partner_name = "Maria"
+
+print hello_name(partner_name)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 #def hello_print():
@@ -22,37 +90,12 @@ print hello_print()
 #print hello_return()
 
 
-def hello_name():
-    name = "Yenny"
-    print "hello"
-    return "Yenny"
-print hello_name()
 
-
-def hello_name():
-    print "hello_name"
-print hello_name()
-
-
-def hello_name():
-    name = "Maria"
-    return "Maria"
-print hello_name()
-
-
-def hello_name():
-    return "Maria"
-print hello_name()
-
-
-def partner_name():
-    value = "Maria"
-    return "partner_name"
-print partner_name()
 
 
 #Funtions Part 2
 
+"""
 def add(num1, num2):
     return num1 + num2
 print add(4,5)
@@ -121,4 +164,5 @@ def main():
 if __name__ == "__main__":
     print "Show the __name__ of this calculator_main.py module.", __name__
     main()
-    
+   
+""" 
