@@ -1,6 +1,7 @@
-"""
+
 #part 2 for loops
 #question number 1:
+'''
 for item in range(0,21):
     print item
 
@@ -18,35 +19,29 @@ list_fruits = ("apples", "oranges", "bananas")
 for fruits in list_fruits:
     print list_fruits,
 
+
 #question number 2:
 list_fruits = ("apples", "oranges", "bananas")
 for fruits in range(len(list_fruits)):
     print list_fruits[fruits],
 
+'''
+# function starts here
+def sum_nums(bunch_of_numbers):
+    sum = 0
+    # for loop starts here
+    for item in bunch_of_numbers:
+        sum = sum + item
+    # for loop ends here
+    print sum
+# function ends here
+
 
 #part 4 for loops
 #question number 1:
-def sum_num = (10)
-    sum_num 0 < 11
+my_list = [1,3,6,12,10,23]
 
-"""
-#while loops Exercises
-#question number 1:
-count = 1  
-while count < 21:
-    print count,
-    count = count + 1
-
-#question number 2:
-count = 1  
-while count < 21:
-    if count == 13:
-        print "hello"
-    else:
-        print count + 1
-
-        
-
+sum_nums(my_list)
 
 
 
