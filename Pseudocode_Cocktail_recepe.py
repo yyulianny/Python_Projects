@@ -1,0 +1,10 @@
+how to make a perfect cocktail
+pick up your base ('vodka', 'gin', 'rum', 'whiskey', 'tequila')
+pick your base brand ('titos', 'ketel one', 'reyka')
+pick or choose your base measument (0.25oz, 0.5oz, 0.75oz, 1oz, 1.5oz, 2oz, 3oz)
+choose what kind a juice would you like? ('lime', 'lemon', 'pineapple', 'cranberry', 'ginger beer', 'grapefruit', 'orange juice,')
+do you like a sweetener ('sugar', 'syrup', 'sweet vermout', 'campari', 'bitters')
+what kind of glass would you like ('low ball', 'high ball', 'cocktail', 'copper', 'flute')
+what kind of method would you like to use? ('stir', 'shake', 'up', 'neat', 'chill', 'on the rock')
+choose your garnish ('lime', 'lemon', 'mint', 'cherry', 'sugar', 'salt', 'orange peel', 'olives', 'onions')
+the out put('good drink', 'perfect cocktail', 'no bad', 'you can try again')

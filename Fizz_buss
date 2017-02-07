@@ -33,4 +33,3 @@ def fizz_buzz(min,max):
             print number,
 
 
-fizz_buzz(1,100)
