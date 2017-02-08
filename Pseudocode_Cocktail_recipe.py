@@ -1,6 +1,7 @@
 how to make a perfect cocktail
-pick up your base ('vodka', 'gin', 'rum', 'whiskey', 'tequila')
+pick up your base ('vodka', 'gin', 'tequila', 'rum', 'whiskey')
 pick your base brand ('titos', 'ketel one', 'reyka')
+othewise on well ('sky', 'beafeater', 'plantation 3', 'altos blanco', 'rittenhouse')
 pick or choose your base measument (0.25oz, 0.5oz, 0.75oz, 1oz, 1.5oz, 2oz, 3oz)
 choose what kind a juice would you like? ('lime', 'lemon', 'pineapple', 'cranberry', 'ginger beer', 'grapefruit', 'orange juice,')
 do you like a sweetener ('sugar', 'syrup', 'sweet vermout', 'campari', 'bitters')
