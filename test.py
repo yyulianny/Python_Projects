@@ -1,6 +1,6 @@
 def should_you_eat_the_bacon():
         angels_question = raw_input("do you wnat to feel like angels are frolicking on your taste buds? Y or N:")
-        if angels_question == "Y":
+        if (angels_question == ("Y")):
                 return "eat it!"
         elif angels_question == "N":
                 return "You've clearly never tasted bacon, eat it!"
