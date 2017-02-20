@@ -11,22 +11,48 @@ what kind of method would you like to use? ('stir', 'shake', 'up', 'neat', 'chil
 choose your garnish ('lime', 'lemon', 'mint', 'cherry', 'sugar', 'salt', 'orange peel', 'olives', 'onions')
 the out put('good drink', 'perfect cocktail', 'no bad', 'you can try again')
 """
+
+# This function prompts the user to choose a
+# base for cocktail, such as whiskey or gin
+# --------------------------------------------
 def choose_base():
     my_base = raw_input("please choose your base ")
+    
     if my_base in ["vodka", "gin", "tequila", "rum", "whiskey"]:
         print "sounds great!, lets go to the next step"
              
     elif my_base not in ["vodka", "gin", "tequila", "rum", "whiskey"]:
-        return "please try it again!"
+        print "please try it again!"
 
-def choose_brand():
+    return my_base
 
-    my_brand = raw_input("any any brand preference? yes or no: ")
+
+# This function prompts the user for the brand 
+# name of the particular drink
+# --------------------------------------------
+def choose_brand(base):
+    vodka = ["titos", "ketel one", "reyka"]
+    gin = ["Bombay", "Tanqueray", "Botanist"]
+    rum = ["appleton", "plantation 3", "Bacardi"]
+    tequila = ["jose cuervo", "patron", "sauza"]
+    whiskey = ["Jack Daniels", "Johnie Walker", "McCallan", "Hibiki", "Jura", "Glendfiddich", "Chivas Regal"]
+    
+    my_brand = raw_input("any brand preference? yes or no: ")
+    
     if my_brand == "yes":
-        print "titos, ketel one,reyka"
-                    
+        if (base == "vodka"):
+            print vodka
+        elif (base == "gin"): 
+            print gin 
+        elif (base == "rum"):
+            print rum
+        elif (base == "tequila"):
+            print tequila
+        elif (base == whiskey):
+            print whiskey 
+
     elif my_brand == "no":
-        print "sky is on the well"
+        print "the well it is"
 
 
 def create_your_perfect_cocktail():

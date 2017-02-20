@@ -1,11 +1,75 @@
-how to make a perfect cocktail
-pick up your base ('vodka', 'gin', 'tequila', 'rum', 'whiskey')
-pick your base brand ('titos', 'ketel one', 'reyka')
-othewise on well ('sky', 'beafeater', 'plantation 3', 'altos blanco', 'rittenhouse')
-pick or choose your base measument (0.25oz, 0.5oz, 0.75oz, 1oz, 1.5oz, 2oz, 3oz)
-choose what kind a juice would you like? ('lime', 'lemon', 'pineapple', 'cranberry', 'ginger beer', 'grapefruit', 'orange juice,')
-do you like a sweetener ('sugar', 'syrup', 'sweet vermout', 'campari', 'bitters')
-what kind of glass would you like ('low ball', 'high ball', 'cocktail', 'copper', 'flute')
-what kind of method would you like to use? ('stir', 'shake', 'up', 'neat', 'chill', 'on the rock')
-choose your garnish ('lime', 'lemon', 'mint', 'cherry', 'sugar', 'salt', 'orange peel', 'olives', 'onions')
-the out put('good drink', 'perfect cocktail', 'no bad', 'you can try again')
+
+def intro():
+    print ("\n" * 50)
+    print 'what is your name? ',
+    name = raw_input()
+
+    print "Welcome %r!" %(name)
+    
+    print 'would you like to play a game? [Y or N] ',
+    play_or_no = raw_input()
+
+    if (play_or_no.upper() == "Y") or (play_or_no.upper() == "YES") :
+        start_game()
+    else:
+        print "goodbye %r" %(name)
+    pass
+
+
+
+def start_game():
+    list_of_items = ['vodka', 'gin', 'tequila', 'rum', 'whiskey', 'lime', 'lemon', 
+                    'pineapple', 'cranberry', 'ginger beer', 'grapefruit', 'orange juice', 
+                    'sugar', 'syrup', 'sweet vermout', 'campari', 'bitters', 'mint', 
+                    'cherry', 'sugar', 'salt', 'orange peel', 'olives', 'onions', 'coke',
+                    'tonic', 'sprite', 'triplesec', 'sweet and sour']
+
+    print ("\n" * 50)
+    print "here the list of items"
+    print "----------------------"
+    
+    count = 1
+    for item in list_of_items:
+        print count,
+        print item
+        count = count + 1
+    
+    get_user_items()    
+
+    pass
+
+
+def get_user_items():
+    print ("\n")
+    print "pick five items from the list"
+    
+    jack_and_coke = ['jack', 'coke']
+    margarita = ['tequila', 'triplesec', 'limejuice', 'sweet and sour']
+
+
+    print 'item #1: ',
+    item1 = raw_input()
+
+    print 'item #2: ',
+    item2 = raw_input()
+
+    print 'item #3: ',
+    item3 = raw_input()
+
+    print 'item #4: ',
+    item4 = raw_input()
+
+    print 'item #5: ',
+    item5 = raw_input()
+
+    for count in range(5)
+        if(count == 0):
+            # do something with item 1   
+            
+        elif(count == 1):
+            # do something with item 2     
+
+
+
+#intro()
+start_game()

@@ -1,0 +1,9 @@
+# question number 1 #
+
+from pdb import set_trace
+set_trace()
+
+split_date = ["item:apples,quantity:4,price:1.50\n"]
+item_data = split_data[0]
+item_list = item_data_split(":")
+quantity = (quantity_list[0])
