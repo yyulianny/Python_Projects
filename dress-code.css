@@ -1,0 +1,28 @@
+
+.emphasize{
+    background-color: #ffffcc;
+   
+}
+
+.title-color{
+    color: blue;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+}
+
+#intro-color{
+    color: green;
+}
+
+.outlined{
+    color: white;
+    background-color: blue;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+}
+
+body {
+    background-image: http://conradhotels3.hilton.com/resources/media/ch/en_US/img/shared/carousel/main/CN_chinablue01_2.jpg
+}
+
